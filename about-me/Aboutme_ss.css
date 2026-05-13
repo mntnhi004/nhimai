@@ -1,0 +1,129 @@
+body {
+    font-family: Futura, Helvetica, sans-serif;
+    background-color: #8FA6B4;
+}
+header {
+    height: 65px;
+    background-color: #96B3CD;
+    color: white;
+    display: flex;
+    gap: 10px;
+    padding: 5px 20px 0 20px;
+    font-size: 28px;
+    justify-content: space-between;
+    img{
+        width: 70px;
+    }
+    section.menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        nav.menu {
+            a {
+                text-decoration: none;
+                color: white;
+                padding: 40px;
+                align-items: center;
+            }
+        }
+    }
+}
+
+section.landing {
+    height: 500px;
+    background-image: url('../Photos/flower-background.png');
+    display: flex;
+    .rightland {
+        width: 30%;
+        padding-right: 30px;
+        text-align: center;
+        margin-left:13px;
+        img {
+            width: 15%;
+            padding-top:13px;
+        }
+    }
+
+    .leftland {
+        width: 30%;
+        padding-left: 30px;
+        text-align: center;
+        img{
+            width:15%;
+            padding-top:13px;
+        }
+    }
+
+    .middle {
+        width: 40%;
+        overflow: clip;
+        position: relative;
+
+        img {
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+
+        }
+    }
+}
+section.skills{
+    display: flex;
+    background-image: url('../Photos/noise_bg_with_cross.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .on_the_right{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        margin-left: 100px;
+        width:50%;
+        img{
+            height: 100%;
+            margin-left: 60px;
+        }
+    }
+    .on_the_left{
+        width:50%;
+        margin-top:40px;
+        div {
+            justify-content: center;
+            gap:30px;
+            h2{
+                font-size: 35px;
+            }
+            img {
+                width: 40%;
+                padding-bottom: 25px;
+            }
+        }
+    }
+}
+
+footer {
+    display: flex;
+    background-color: #96B3CD;
+    gap: 100px;
+    padding: 30px;
+
+    section.right {
+
+    }
+
+    section.left {
+        form {
+            display: flex;
+            gap: 1rem;
+            flex-direction: column;
+
+            div.choices {
+                display: flex;
+
+                label {
+                    gap: 1rem;
+                }
+            }
+        }
+    }
+}
